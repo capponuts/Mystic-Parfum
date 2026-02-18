@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mystic Parfum
 
-## Getting Started
+Site e-commerce pour **Mystic Parfum** — fondants parfumés artisanaux fabriqués en France.
 
-First, run the development server:
+🌐 [mysticparfum.fr](https://mysticparfum.fr) | [mysticparfum.com](https://mysticparfum.com)
+
+## Stack technique
+
+- **Framework** : Next.js 16 (App Router)
+- **UI** : React 19, TypeScript, Tailwind CSS 4, Framer Motion
+- **Déploiement** : Vercel
+- **Données** : Statiques (pas de backend/BDD)
+
+## Démarrage
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Le site est accessible sur [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Commande         | Description              |
+|------------------|--------------------------|
+| `npm run dev`    | Serveur de développement |
+| `npm run build`  | Build de production      |
+| `npm start`      | Serveur de production    |
+| `npm run lint`   | Linting ESLint           |
 
-## Learn More
+## Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/
+│   ├── layout.tsx          # Layout racine (fonts)
+│   ├── page.tsx            # Page "en construction"
+│   └── (shop)/             # Route group boutique
+│       ├── layout.tsx      # Layout avec Header/Footer
+│       ├── home/           # Homepage complète
+│       ├── produits/       # Catalogue + fiches produit
+│       ├── panier/         # Panier
+│       ├── checkout/       # Commande
+│       ├── a-propos/       # Notre histoire
+│       └── contact/        # Contact
+├── components/
+│   ├── ui/                 # Composants réutilisables
+│   ├── layout/             # Header, Footer
+│   ├── home/               # Sections homepage
+│   ├── products/           # Cartes et grille produits
+│   └── cart/               # Composants panier
+├── lib/                    # Données, contexte panier
+└── types/                  # Interfaces TypeScript
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Création
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Site réalisé par [Kapinfo.fr](https://kapinfo.fr)

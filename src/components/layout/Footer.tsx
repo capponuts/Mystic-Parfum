@@ -10,18 +10,18 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-3 mb-4">
               <Image
                 src="/logo.jpg"
-                alt="Maison Parfumée"
+                alt="Mystic Parfum"
                 width={40}
                 height={40}
                 className="rounded-lg"
               />
               <span className="font-heading text-lg font-bold text-cream">
-                Maison Parfumée
+                Mystic Parfum
               </span>
             </Link>
             <p className="text-cream/70 text-sm leading-relaxed">
-              Fondants parfumés artisanaux, fabriqués avec amour en France.
-              Des senteurs authentiques pour votre intérieur.
+              Fondants parfumés artisanaux aux senteurs envoûtantes,
+              fabriqués avec passion en France.
             </p>
           </div>
 
@@ -70,14 +70,14 @@ export default function Footer() {
           <div>
             <h3 className="font-heading text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-sm text-cream/70">
-              <li>contact@maison-parfumee.fr</li>
+              <li>contact@mysticparfum.fr</li>
               <li>Fabriqué en France</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-cream/20 mt-12 pt-8 text-center text-sm text-cream/50">
-          <p>&copy; {new Date().getFullYear()} Maison Parfumée. Tous droits réservés.</p>
+          <p>&copy; {new Date().getFullYear()} Mystic Parfum. Tous droits réservés.</p>
         </div>
       </div>
     </footer>

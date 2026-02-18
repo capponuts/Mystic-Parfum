@@ -20,7 +20,7 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
           >
             <span className="inline-block bg-cream/20 text-cream px-4 py-2 rounded-full text-sm font-medium mb-6 backdrop-blur-sm">
-              Artisanat fran&ccedil;ais &bull; Cire de soja naturelle
+              Artisanat fran&ccedil;ais &bull; Senteurs envo&ucirc;tantes
             </span>
           </motion.div>
 
@@ -30,9 +30,9 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="font-heading text-5xl sm:text-6xl lg:text-7xl font-bold text-cream leading-tight mb-6"
           >
-            Parfumez votre
+            Éveillez vos
             <br />
-            <span className="text-cream-dark">intérieur</span> avec douceur
+            <span className="text-cream-dark">sens</span> avec mysticisme
           </motion.h1>
 
           <motion.p
@@ -41,9 +41,9 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-cream/80 text-lg sm:text-xl mb-10 max-w-xl leading-relaxed"
           >
-            Découvrez nos fondants parfumés artisanaux, fabriqués avec des
-            ingrédients naturels pour créer une ambiance chaleureuse et
-            envoûtante chez vous.
+            Découvrez nos fondants parfumés artisanaux aux senteurs
+            mystiques et envoûtantes. Cire de soja naturelle, fabriqués
+            en France pour sublimer votre intérieur.
           </motion.p>
 
           <motion.div

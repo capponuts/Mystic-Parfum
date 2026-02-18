@@ -23,8 +23,8 @@ export default function FeaturedProducts() {
             Nos coups de coeur
           </h2>
           <p className="text-sage text-lg max-w-2xl mx-auto">
-            Une sélection de nos fondants les plus appréciés, choisis avec soin
-            pour vous faire découvrir l&apos;univers Maison Parfumée.
+            Une sélection de nos fondants les plus envoûtants, choisis avec soin
+            pour vous faire découvrir l&apos;univers Mystic Parfum.
           </p>
         </motion.div>
 

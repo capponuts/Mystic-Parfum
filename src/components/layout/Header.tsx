@@ -25,17 +25,17 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-3">
             <Image
               src="/logo.jpg"
-              alt="Maison Parfumée"
+              alt="Mystic Parfum"
               width={48}
               height={48}
               className="rounded-lg"
             />
             <div className="hidden sm:block">
               <span className="font-heading text-xl font-bold text-forest">
-                Maison
+                Mystic
               </span>
               <span className="font-heading text-xl text-brown ml-1">
-                Parfumée
+                Parfum
               </span>
             </div>
           </Link>

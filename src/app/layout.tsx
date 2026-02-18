@@ -20,11 +20,11 @@ const lato = Lato({
 
 export const metadata: Metadata = {
   title: {
-    default: "Maison Parfumée | Fondants Parfumés Artisanaux",
-    template: "%s | Maison Parfumée",
+    default: "Mystic Parfum | Fondants Parfumés Artisanaux",
+    template: "%s | Mystic Parfum",
   },
   description:
-    "Découvrez nos fondants parfumés artisanaux fabriqués en France avec de la cire de soja naturelle. Floraux, fruités, gourmands et boisés.",
+    "Éveillez vos sens avec nos fondants parfumés artisanaux. Cire de soja naturelle, fabriqués en France. Floraux, fruités, gourmands et boisés — mysticparfum.fr",
 };
 
 export default function RootLayout({

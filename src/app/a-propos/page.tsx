@@ -46,16 +46,16 @@ export default function AProposPage() {
                 Notre histoire
               </h1>
               <p className="text-cream/80 text-lg leading-relaxed mb-6">
-                Maison Parfumée est née d&apos;une passion simple : créer des
-                ambiances olfactives uniques pour chaque intérieur. Depuis notre
-                petit atelier, nous imaginons et fabriquons des fondants parfumés
-                qui transforment votre quotidien.
+                Mystic Parfum est née d&apos;une fascination pour le pouvoir
+                envoûtant des senteurs. Depuis notre atelier, nous créons des
+                fondants parfumés qui éveillent les sens et transforment chaque
+                pièce en un sanctuaire olfactif.
               </p>
               <p className="text-cream/80 text-lg leading-relaxed">
-                Chaque création est le fruit d&apos;un travail minutieux, alliant
-                tradition artisanale et recherche des plus belles matières
-                premières naturelles. Notre mission ? Vous offrir un moment de
-                bien-être à chaque fois que vous allumez votre brûle-parfum.
+                Chaque création est le fruit d&apos;un savoir-faire minutieux,
+                alliant tradition artisanale et quête des plus nobles essences
+                naturelles. Notre mission ? Vous transporter dans un univers
+                sensoriel unique à chaque utilisation.
               </p>
             </motion.div>
 
@@ -67,7 +67,7 @@ export default function AProposPage() {
             >
               <Image
                 src="/logo.jpg"
-                alt="Maison Parfumée"
+                alt="Mystic Parfum"
                 width={300}
                 height={300}
                 className="rounded-2xl shadow-xl"
@@ -90,7 +90,7 @@ export default function AProposPage() {
             </h2>
             <p className="text-sage text-lg max-w-2xl mx-auto">
               Quatre piliers qui guident chacune de nos créations et font la
-              différence Maison Parfumée.
+              différence Mystic Parfum.
             </p>
           </motion.div>
 

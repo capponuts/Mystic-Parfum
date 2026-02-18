@@ -20,7 +20,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    const stored = localStorage.getItem("maison-parfumee-cart");
+    const stored = localStorage.getItem("mystic-parfum-cart");
     if (stored) {
       setItems(JSON.parse(stored));
     }
@@ -29,7 +29,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     if (isLoaded) {
-      localStorage.setItem("maison-parfumee-cart", JSON.stringify(items));
+      localStorage.setItem("mystic-parfum-cart", JSON.stringify(items));
     }
   }, [items, isLoaded]);
 

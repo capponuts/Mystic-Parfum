@@ -113,7 +113,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="font-heading font-semibold text-forest">Email</h3>
               </div>
-              <p className="text-sage text-sm">contact@maison-parfumee.fr</p>
+              <p className="text-sage text-sm">contact@mysticparfum.fr</p>
             </div>
 
             <div className="bg-warm-white rounded-2xl p-6 shadow-sm">
@@ -124,7 +124,7 @@ export default function ContactPage() {
                 <h3 className="font-heading font-semibold text-forest">Atelier</h3>
               </div>
               <p className="text-sage text-sm">
-                Atelier Maison Parfumée
+                Atelier Mystic Parfum
                 <br />
                 France
               </p>

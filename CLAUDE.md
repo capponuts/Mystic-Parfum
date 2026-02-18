@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Mystic Parfum (mysticparfum.fr / mysticparfum.com) — a French-language e-commerce site for artisanal scented wax melts (fondants parfumés). Built with Next.js 16 App Router, React 19, TypeScript, Tailwind CSS 4, and Framer Motion. No backend/database — all product data is static and cart state persists via localStorage. DA: deep purple/gold mystic theme.
+Mystic Parfum (mysticparfum.fr / mysticparfum.com) — a French-language e-commerce site for artisanal scented wax melts (fondants parfumés). Built with Next.js 16 App Router, React 19, TypeScript, Tailwind CSS 4, and Framer Motion. No backend/database — all product data is static and cart state persists via localStorage. DA: white/green clean theme with blue accent (#2596BE).
 
 ## Commands
 
@@ -49,7 +49,7 @@ All product data lives in `src/lib/data.ts` as static TypeScript objects (12 pro
 
 ### Styling
 
-Tailwind CSS v4 with a custom color theme defined via `@theme` in `globals.css`. Key colors: `forest` (deep indigo/purple, primary CTA), `sage` (muted lavender, neutral), `brown` (gold/amber, accent), `cream` (warm ivory backgrounds). Fonts: Playfair Display (headings), Lato (body) via next/font.
+Tailwind CSS v4 with a custom color theme defined via `@theme` in `globals.css`. Key colors: `forest` (emerald green #1A6B4A, primary CTA), `sage` (muted sage green, neutral), `brown` (cerulean blue #2596BE, accent), `cream` (white/very light green backgrounds). Fonts: Playfair Display (headings), Lato (body) via next/font.
 
 ## Key Conventions
 

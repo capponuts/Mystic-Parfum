@@ -76,8 +76,23 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-cream/20 mt-12 pt-8 text-center text-sm text-cream/50">
+        <div className="border-t border-cream/20 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-cream/50">
           <p>&copy; {new Date().getFullYear()} Mystic Parfum. Tous droits réservés.</p>
+          <a
+            href="https://kapinfo.fr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-cream/40 hover:text-cream/70 transition-colors"
+          >
+            <span>Création</span>
+            <Image
+              src="/logokapinfo.svg"
+              alt="Kapinfo"
+              width={70}
+              height={24}
+              className="opacity-60 hover:opacity-90 transition-opacity"
+            />
+          </a>
         </div>
       </div>
     </footer>
